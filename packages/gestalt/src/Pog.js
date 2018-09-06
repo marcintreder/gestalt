@@ -2,8 +2,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import Box from './Box.js';
-import Icon from './Icon.js';
+import Box from './Box/Box.js';
+import Icon from './Icon/Icon.js';
 import icons from './icons/index.js';
 import styles from './Pog.css';
 

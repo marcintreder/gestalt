@@ -1,6 +1,6 @@
 // @flow
 import Avatar from './Avatar.js';
-import Box from './Box.js';
+import Box from './Box/Box.js';
 import Button from './Button.js';
 import Card from './Card.js';
 import Checkbox from './Checkbox.js';

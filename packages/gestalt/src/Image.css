@@ -1,6 +1,6 @@
 .img {
   composes: block from "./Layout.css";
-  composes: xsCol12 from "./Column.css";
+  composes: xsCol12 from "./Column/Column.css";
   composes: absolute from "./Layout.css";
 }
 
