@@ -3,7 +3,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import styles from './IconButton.css';
 import icons from '../icons/index.js';
-import Pog from '../Pog.js';
+import Pog from '../Pog/Pog';
 
 type Props = {|
   accessibilityExpanded?: boolean,

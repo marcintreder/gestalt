@@ -3,7 +3,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Box from '../Box/Box.js';
 import Icon from '../Icon/Icon.js';
-import Image from '../Image.js';
+import Image from '../Image/Image.js';
 import Mask from '../Mask/Mask.js';
 import typography from '../Typography.css';
 

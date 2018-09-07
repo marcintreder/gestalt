@@ -1,0 +1,5 @@
+# SearchFieldMerge
+
+```javascript
+<SearchFieldMerge />
+```

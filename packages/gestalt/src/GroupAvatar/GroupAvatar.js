@@ -3,7 +3,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import styles from './GroupAvatar.css';
 import Box from '../Box/Box.js';
-import Image from '../Image.js';
+import Image from '../Image/Image.js';
 import typography from '../Typography.css';
 
 function zip(a, b) {
