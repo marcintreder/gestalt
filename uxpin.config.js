@@ -44,6 +44,9 @@ module.exports = {
           'packages/gestalt/src/SegmentedControlMerge/SegmentedControlMerge.js',
           'packages/gestalt/src/TabsMerge/TabsMerge.js',
           'packages/gestalt/src/SwitchMerge/SwitchMerge.js',
+          'packages/gestalt/src/ToastMerge/ToastMerge.js',
+          'packages/gestalt/src/ToastMergeInteractive/ToastMergeInteractive.js',
+          'packages/gestalt/src/CheckboxMerge/CheckboxMerge.js',
         ],
       },
     ],
@@ -56,16 +59,5 @@ module.exports = {
 ** Tooltip – refs don't work with UXPin Merge. Works via wrapper TootlipMerge
 ** Layer – UXPin Merge doesn't work with position absolute
 ** Masonry – unclear how this component works
-*/
-
-/* Potential complex patterns to be introduced
-** Toast
-** Layer
-**
-*/
-
-/* Potential changes in the architecture of components to fit
-** better into Merge requirements:
-** – Toast (image via props changed to image as a child)
-**
+** Modal – UXPin Merge doesn't work with position absolute
 */

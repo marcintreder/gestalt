@@ -5,6 +5,7 @@ import Box from '../packages/gestalt/src/Box/Box';
 import Button from '../packages/gestalt/src/Button/Button';
 import Card from '../packages/gestalt/src/Card/Card';
 import Checkbox from '../packages/gestalt/src/Checkbox/Checkbox';
+import CheckboxMerge from '../packages/gestalt/src/CheckboxMerge/CheckboxMerge';
 import CollageMerge from '../packages/gestalt/src/CollageMerge/CollageMerge';
 import Column from '../packages/gestalt/src/Column/Column';
 import Container from '../packages/gestalt/src/Container/Container';
@@ -37,6 +38,8 @@ import Text from '../packages/gestalt/src/Text/Text';
 import TextArea from '../packages/gestalt/src/TextArea/TextArea';
 import TextField from '../packages/gestalt/src/TextField/TextField';
 import Toast from '../packages/gestalt/src/Toast/Toast';
+import ToastMerge from '../packages/gestalt/src/ToastMerge/ToastMerge';
+import ToastMergeInteractive from '../packages/gestalt/src/ToastMergeInteractive/ToastMergeInteractive';
 import TooltipMerge from '../packages/gestalt/src/TooltipMerge/TooltipMerge';
 import Touchable from '../packages/gestalt/src/Touchable/Touchable';
 import Video from '../packages/gestalt/src/Video/Video';
@@ -47,6 +50,7 @@ export {
   Button,
   Card,
   Checkbox,
+  CheckboxMerge,
   CollageMerge,
   Column,
   Container,
@@ -79,6 +83,8 @@ export {
   TextArea,
   TextField,
   Toast,
+  ToastMerge,
+  ToastMergeInteractive,
   TooltipMerge,
   Touchable,
   Video,
