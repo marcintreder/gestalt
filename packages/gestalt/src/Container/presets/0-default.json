@@ -1,0 +1,35 @@
+{
+  "rootId": "container1315182403",
+  "elements": {
+    "container1315182403": {
+      "name": "Container",
+      "props": {
+        "color": "lightGray",
+        "padding": 3,
+        "children": {
+          "uxpinPresetElementId": "box591981735"
+        }
+      }
+    },
+    "box591981735": {
+      "name": "Box",
+      "props": {
+        "color": "lightGray",
+        "padding": 1,
+        "children": {
+          "uxpinPresetElementId": "text1621352923"
+        }
+      }
+    },
+    "text1621352923": {
+      "name": "Text",
+      "props": {
+        "align": "center",
+        "children": "Merge!"
+      }
+    }
+  }
+}
+
+
+

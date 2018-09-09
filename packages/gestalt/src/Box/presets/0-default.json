@@ -1,0 +1,24 @@
+{
+  "rootId": "box911980412",
+  "elements": {
+    "box911980412": {
+      "name": "Box",
+      "props": {
+        "alignItems": "center",
+        "direction": "row",
+        "display": "flex",
+        "children": {
+          "uxpinPresetElementId": "box3293857552"
+        }
+      }
+    },
+    "box3293857552": {
+      "name": "Box",
+      "props": {
+        "color": "navy",
+        "width": 100,
+        "height": 100
+      }
+    }
+  }
+}

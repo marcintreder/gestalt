@@ -1,0 +1,30 @@
+{
+  "rootId": "tabs2969586544",
+  "elements": {
+    "tabs2969586544": {
+      "name": "Tabs",
+      "props": {
+        "activeTabIndex": 0,
+        "onChange": "() => chonsole.log(``)",
+        "tabs":
+        [
+          {
+            "text": "Boards",
+            "href": "#"
+          },
+          {
+            "text": "Pins",
+            "href": "#"
+          },
+          {
+            "text": "Topics",
+            "href": "#"
+          }
+        ]
+      }
+    }
+  }
+}
+
+
+

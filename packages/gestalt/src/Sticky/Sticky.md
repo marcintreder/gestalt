@@ -17,7 +17,7 @@
     </Box>
     <Box>
       <Sticky top={0} dangerouslySetZIndex={{ __zIndex: 3 }}>
-      <Box alignItems="center" color="lightGray" display="flex" height={40} position="relative" dangerouslySetInlineStyle={{ __style: { zIndex: 2 } }}>
+       <Box alignItems="center" color="lightGray" display="flex" height={40} position="relative" dangerouslySetInlineStyle={{ __style: { zIndex: 2 } }}>
           <Text>This should also stick</Text>
         </Box>
       </Sticky>

@@ -1,0 +1,27 @@
+{
+  "rootId": "mask1738871790",
+  "elements": {
+    "mask1738871790": {
+      "name": "Mask",
+      "props": {
+        "shape": "circle",
+        "children": {
+          "uxpinPresetElementId": "image2817093934"
+        }
+      }
+    },
+    "image2817093934": {
+     "name": "Image",
+      "props": {
+        "alt": "uxpin.com",
+        "color": "rgb(111, 91, 77)",
+        "naturalHeight": 564,
+        "naturalWidth": 564,
+        "src": "http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"
+      }
+    }
+  }
+}
+
+
+

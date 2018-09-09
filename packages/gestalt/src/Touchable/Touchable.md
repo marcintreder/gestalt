@@ -1,7 +1,6 @@
 # Touchable
 
 ```javascript
-    <Box column={4}>
    <Touchable
           mouseCursor="zoomIn"
           onTouch={()=>console.log('')}
@@ -23,5 +22,4 @@
             </Link>
           </Box>
         </Touchable>
-    </Box>
 ```

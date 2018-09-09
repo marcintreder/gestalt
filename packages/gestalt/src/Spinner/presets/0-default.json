@@ -1,0 +1,15 @@
+{
+  "rootId": "spinner2706561944",
+  "elements": {
+    "spinner2706561944": {
+      "name": "Spinner",
+      "props": {
+        "show": true,
+        "accessibilityLabel": "Example spinner"
+      }
+    }
+  }
+}
+
+
+

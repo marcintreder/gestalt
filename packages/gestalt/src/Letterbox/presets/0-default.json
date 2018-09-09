@@ -1,0 +1,26 @@
+{
+  "rootId": "letterbox345206653",
+  "elements": {
+    "letterbox345206653": {
+      "name": "Letterbox",
+      "props": {
+        "width": 200,
+        "height": 200,
+        "contentAspectRatio": 0.69,
+        "children": {
+          "uxpinPresetElementId": "image3166916518"
+        }
+      }
+    },
+    "image3166916518": {
+     "name": "Image",
+      "props": {
+        "alt": "tall",
+        "src": "https://pbs.twimg.com/profile_images/1020144290440216576/7CBuimdo_400x400.jpg",
+        "naturalWidth": "564",
+        "naturalHeight": "806"
+      }
+    }
+  }
+}
+

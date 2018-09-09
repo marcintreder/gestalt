@@ -1,0 +1,67 @@
+{
+  "rootId": "card3658137518",
+  "elements": {
+    "card3658137518": {
+      "name": "CardMerge",
+      "props": {
+        "image": {
+          "uxpinPresetElementId": "avatar3371046859"
+        },
+        "children": [
+          {
+            "uxpinPresetElementId": "text3649778243"
+          },
+          {
+            "uxpinPresetElementId": "button2917561660"
+          }
+        ]
+      }
+    },
+    "avatar3371046859": {
+      "name": "Avatar",
+      "props": {
+        "name": "James Jones",
+        "src": "https://pbs.twimg.com/profile_images/965682068821823488/A9mmv_Iy_400x400.jpg"
+      }
+    },
+    "text3649778243": {
+      "name": "Text",
+      "props": {
+        "align": "center",
+        "bold": true,
+        "size": "xl",
+        "children": {
+          "uxpinPresetElementId": "link3099241170"
+        }
+      }
+    },
+    "link3099241170": {
+      "name": "Link",
+      "props": {
+        "href": "https://pinterest.com",
+        "children": {
+          "uxpinPresetElementId": "box1618236798"
+        }
+      }
+    },
+    "box1618236798": {
+      "name": "Box",
+      "props": {
+        "paddingX": 3,
+        "paddingY": 2,
+        "children": "James Jones"
+      }
+    },
+    "button2917561660": {
+      "name": "Button",
+      "props": {
+        "accessibilityLabel": "Follow James Jones",
+        "color": "red",
+        "text": "Follow"
+      }
+    }
+  }
+}
+
+
+

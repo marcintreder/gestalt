@@ -1,0 +1,14 @@
+{
+  "rootId": "avatar1712960948",
+  "elements": {
+    "avatar1712960948": {
+      "name": "Avatar",
+      "props": {
+        "size": "md",
+        "src": "https://pbs.twimg.com/profile_images/965682068821823488/A9mmv_Iy_400x400.jpg",
+        "name": "bauer",
+        "verified": true
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "rootId": "box2398016799",
+  "elements": {
+    "box2398016799": {
+      "name": "Box",
+      "props": {
+        "color": "white",
+        "height": 200,
+        "overflow": "scroll",
+        "children":
+          {
+          "uxpinPresetElementId": "box558037075"
+          }
+      }
+    },
+    "box558037075": {
+      "name": "Box",
+      "props": {
+        "height": 500,
+        "marginTop": 10,
+        "children":
+        [
+          {
+            "uxpinPresetElementId": "box620047247"
+          },
+          {
+            "uxpinPresetElementId": "box1931428635"
+          }
+        ]
+      }
+    },
+    "box620047247": {
+      "name": "Box",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "sticky3139730247"
+          },
+          {
+            "uxpinPresetElementId": "box3882305175"
+          }
+        ]
+      }
+    },
+    "box1931428635": {
+      "name": "Box",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "sticky528697028"
+          },
+          {
+            "uxpinPresetElementId": "box3866044078"
+          }
+        ]
+      }
+    },
+    "sticky3139730247": {
+      "name": "Sticky",
+      "props": {
+        "top": 0,
+        "children": {
+          "uxpinPresetElementId": "box3555702638"
+        }
+      }
+    },
+    "box3882305175": {
+      "name": "Box",
+      "props": {
+        "marginTop": 10,
+        "position": "relative",
+        "children": [
+          {
+            "uxpinPresetElementId": "text3540468524"
+          },
+          {
+            "uxpinPresetElementId": "text1116719957"
+          },
+          {
+            "uxpinPresetElementId": "text2433533108"
+          }
+        ]
+      }
+    },
+    "sticky528697028": {
+      "name": "Sticky",
+      "props": {
+        "top": 0,
+        "dangerouslySetZIndex": {"__zIndex": 3},
+        "children": {
+          "uxpinPresetElementId": "box59194605"
+        }
+      }
+    },
+    "box3866044078": {
+      "name": "Box",
+      "props": {
+        "marginTop": 10,
+        "children":
+        [
+          {
+            "uxpinPresetElementId": "text1960552698"
+          },
+          {
+            "uxpinPresetElementId": "text2055396297"
+          }
+        ]
+      }
+    },
+    "box3555702638": {
+      "name": "Box",
+      "props": {
+        "alignItems": "center",
+        "color": "lightGray",
+        "display": "flex",
+        "height": 40,
+        "children": {
+          "uxpinPresetElementId": "text673542996"
+        }
+      }
+    },
+    "text3540468524": {
+      "name": "Text",
+      "props": {
+        "children": "Scroll"
+      }
+    },
+    "text1116719957": {
+      "name": "Text",
+      "props": {
+        "children": "Keep scrolling"
+      }
+    },
+    "text2433533108": {
+      "name": "Text",
+      "props": {
+        "children": "Scroll more"
+      }
+    },
+    "box59194605": {
+      "name": "Box",
+      "props": {
+        "alignItems": "center",
+        "color": "lightGray",
+        "display": "flex",
+        "height": 40,
+        "position": "relative",
+        "dangerouslySetInlineStyle": { "__style": { "zIndex": 2 } },
+        "children": {
+          "uxpinPresetElementId": "text820040662"
+        }
+      }
+    },
+    "text1960552698": {
+      "name": "Text",
+      "props": {
+        "children": "Still scrolling"
+      }
+    },
+    "text2055396297": {
+      "name": "Text",
+      "props": {
+        "children": "Tadaaaaa"
+      }
+    },
+    "text820040662": {
+      "name": "Text",
+      "props": {
+        "children": "This should also stick"
+      }
+    },
+    "text673542996": {
+      "name": "Text",
+      "props": {
+        "children": "This should stick"
+      }
+    }
+  }
+}
+
+
+

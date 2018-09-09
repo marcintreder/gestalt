@@ -1,0 +1,29 @@
+{
+  "rootId": "tabsmerge2236399768",
+  "elements": {
+    "tabsmerge2236399768": {
+      "name": "TabsMerge",
+      "props": {
+        "firstActive": 0,
+        "tabs":
+        [
+          {
+            "text": "Boards",
+            "href": "#"
+          },
+          {
+            "text": "Pins",
+            "href": "#"
+          },
+          {
+            "text": "Topics",
+            "href": "#"
+          }
+        ]
+      }
+    }
+  }
+}
+
+
+

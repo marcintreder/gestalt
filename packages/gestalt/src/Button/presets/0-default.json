@@ -1,0 +1,12 @@
+{
+  "rootId": "button4228415594",
+  "elements": {
+    "button4228415594": {
+      "name": "Button",
+      "props": {
+        "text": "UXPin Merge",
+        "color": "red",
+      }
+    }
+  }
+}

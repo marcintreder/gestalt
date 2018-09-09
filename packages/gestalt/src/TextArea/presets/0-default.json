@@ -1,0 +1,16 @@
+{
+  "rootId": "textarea2208093034",
+  "elements": {
+    "textarea2208093034": {
+      "name": "TextArea",
+      "props": {
+        "id": "aboutme",
+        "onChange": "() => console.log(``)",
+        "placeholder": "Write something about yourself..."
+      }
+    }
+  }
+}
+
+
+

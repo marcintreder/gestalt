@@ -29,7 +29,7 @@ export default class CheckboxMerge extends React.Component {
   }
 }
 
-CheckboxMerge.PropTypes = {
+CheckboxMerge.propTypes = {
   initialChecked: PropTypes.bool,
   disabled: PropTypes.bool,
   hasError: PropTypes.bool,
@@ -47,4 +47,3 @@ CheckboxMerge.defaultProps = {
   indeterminate: false,
   size: 'md',
 };
-

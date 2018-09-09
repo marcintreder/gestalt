@@ -1,0 +1,23 @@
+{
+  "rootId": "label3620215208",
+  "elements": {
+    "label3620215208": {
+      "name": "Label",
+      "props": {
+        "htmlFor": "merge",
+        "children": {
+          "uxpinPresetElementId": "text2200670975"
+        }
+      }
+    },
+    "text2200670975": {
+     "name": "Text",
+      "props": {
+        "children": "UXPin Merge"
+      }
+    }
+  }
+}
+
+
+

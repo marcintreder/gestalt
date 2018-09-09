@@ -1,0 +1,18 @@
+{
+  "rootId": "segmentedcontrolmerge3198662783",
+  "elements": {
+    "segmentedcontrolmerge3198662783": {
+      "name": "SegmentedControlMerge",
+      "props": {
+        "items": [
+          "News",
+          "You",
+          "Messages"],
+        "firstActive": 0
+      }
+    }
+  }
+}
+
+
+

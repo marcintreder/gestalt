@@ -1,7 +1,6 @@
 # Card
 
 ```javascript
-<Box maxWidth={236} padding={2} column={12}>
   <Card
     image={
       <Avatar
@@ -19,5 +18,4 @@
     </Text>
     <Button accessibilityLabel="Follow James Jones" color="red" text="Follow" />
   </Card>
-</Box>
 ```

@@ -1,0 +1,17 @@
+{
+  "rootId": "iconbutton1212601558",
+  "elements": {
+    "iconbutton1212601558": {
+      "name": "IconButton",
+      "props": {
+        "icon": "heart",
+        "accessibilityLabel": "Love",
+        "color": "red",
+        "bgColor": "white"
+      }
+    }
+  }
+}
+
+
+

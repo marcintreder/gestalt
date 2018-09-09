@@ -6,6 +6,6 @@
     thumbnailSrc="http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"
     thumbnailHeight={564}
     thumbnailWidth={564}
-    thumbnailALt="Saved to home decor board"          
+    thumbnailAlt="Saved to home decor board"          
   />
 ```

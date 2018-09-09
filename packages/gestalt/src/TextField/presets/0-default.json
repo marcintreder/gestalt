@@ -1,0 +1,17 @@
+{
+  "rootId": "textfield1430193740",
+  "elements": {
+    "textfield1430193740": {
+      "name": "TextField",
+      "props": {
+        "id": "email",
+        "onChange": "() => console.log(``)",
+        "placeholder": "Email Address",
+        "type": "email"
+      }
+    }
+  }
+}
+
+
+

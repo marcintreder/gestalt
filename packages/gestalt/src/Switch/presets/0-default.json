@@ -1,0 +1,16 @@
+{
+  "rootId": "switch2491819837",
+  "elements": {
+    "switch2491819837": {
+      "name": "Switch",
+      "props": {
+        "onChange": "() => console.log(``)",
+        "id": "emailNotifications",
+        "switched": true
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,24 @@
+{
+  "rootId": "link3069381835",
+  "elements": {
+    "link3069381835": {
+      "name": "Link",
+      "props": {
+        "href": "http://uxpin.com",
+        "children": {
+          "uxpinPresetElementId": "text2532730534"
+        }
+      }
+    },
+    "text2532730534": {
+     "name": "Text",
+      "props": {
+        "bold": true,
+        "children": "UXPin.com"
+      }
+    }
+  }
+}
+
+
+

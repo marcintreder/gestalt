@@ -1,0 +1,44 @@
+{
+  "rootId": "column1315182403",
+  "elements": {
+    "column1315182403": {
+      "name": "Column",
+      "props": {
+        "span": 1,
+        "children": {
+          "uxpinPresetElementId": "box1967748278"
+        }
+      }
+    },
+    "box1967748278": {
+      "name": "Box",
+      "props": {
+        "color": "lightGray",
+        "padding": 1,
+        "children": {
+          "uxpinPresetElementId": "box2135175929"
+        }
+      }
+    },
+    "box2135175929": {
+      "name": "Box",
+      "props": {
+        "color": "white",
+        "paddingY": 2,
+        "children": {
+          "uxpinPresetElementId": "text4016691027"
+        }
+      }
+    },
+    "text4016691027": {
+      "name": "Text",
+      "props": {
+        "align": "center",
+        "children": "1"
+      }
+    }
+  }
+}
+
+
+

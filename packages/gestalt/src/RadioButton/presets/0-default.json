@@ -1,0 +1,18 @@
+{
+  "rootId": "radiobutton2133957314",
+  "elements": {
+    "radiobutton2133957314": {
+      "name": "RadioButton",
+      "props": {
+        "id": "merge",
+        "checked": true,
+        "onChange": "() => console.log(``)",
+        "value": "merge",
+        "size": "md"
+      }
+    }
+  }
+}
+
+
+

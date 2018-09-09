@@ -5,7 +5,7 @@ import Icon from '../Icon/Icon.js';
 import IconButton from '../IconButton/IconButton.js';
 import Box from '../Box/Box.js';
 
-export default class SearchFieldExample extends React.Component {
+export default class SearchFieldMerge extends React.Component {
   constructor(props) {
     super(props);
     this.state = { value: '' };
@@ -50,7 +50,7 @@ export default class SearchFieldExample extends React.Component {
   }
 }
 
-SearchFieldExample.propTypes = {
+SearchFieldMerge.propTypes = {
   containerPadding: PropTypes.number,
   logoSize: PropTypes.number,
   leftIcon: PropTypes.string,
@@ -62,7 +62,7 @@ SearchFieldExample.propTypes = {
 
 }
 
-SearchFieldExample.defaultProps = {
+SearchFieldMerge.defaultProps = {
   containerPadding: 3,
   logoSize: 20,
   leftIcon: "speech-ellipsis",

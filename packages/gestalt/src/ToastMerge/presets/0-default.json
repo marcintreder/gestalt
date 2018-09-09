@@ -1,0 +1,18 @@
+{
+  "rootId": "toastmerge2249311806",
+  "elements": {
+    "toastmerge2249311806": {
+      "name": "ToastMerge",
+      "props": {
+        "text": ["Saved to", "Home decor"],
+        "thumbnailAlt": "Saved to home decor board",
+        "thumbnailHeight": 564,
+        "thumbnailWidth": 564,
+        "thumbnailSrc": "http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"
+      }
+    }
+  }
+}
+
+
+

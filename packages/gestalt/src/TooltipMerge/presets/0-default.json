@@ -1,0 +1,20 @@
+{
+  "rootId": "tooltipmerge2829028949",
+  "elements": {
+    "tooltipmerge2829028949": {
+      "name": "TooltipMerge",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "text4018430708"
+        }
+      }
+    },
+    "text4018430708": {
+      "name": "Text",
+      "children": "Create a board to save Pins about Kitchen Design for later"
+    }
+  }
+}
+
+
+

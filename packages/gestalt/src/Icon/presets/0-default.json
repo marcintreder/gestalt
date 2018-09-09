@@ -1,0 +1,16 @@
+{
+  "rootId": "icon2697366327",
+  "elements": {
+    "icon2697366327": {
+      "name": "Icon",
+      "props": {
+        "icon": "pin",
+        "accessibilityLabel": "Pin",
+        "color": "darkGray"
+      }
+    }
+  }
+}
+
+
+

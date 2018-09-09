@@ -3,8 +3,7 @@ import * as ReactDOM from 'react-dom';
 import Avatar from '../packages/gestalt/src/Avatar/Avatar';
 import Box from '../packages/gestalt/src/Box/Box';
 import Button from '../packages/gestalt/src/Button/Button';
-import Card from '../packages/gestalt/src/Card/Card';
-import Checkbox from '../packages/gestalt/src/Checkbox/Checkbox';
+import CardMerge from '../packages/gestalt/src/CardMerge/CardMerge';
 import CheckboxMerge from '../packages/gestalt/src/CheckboxMerge/CheckboxMerge';
 import CollageMerge from '../packages/gestalt/src/CollageMerge/CollageMerge';
 import Column from '../packages/gestalt/src/Column/Column';
@@ -48,8 +47,7 @@ export {
   Avatar,
   Box,
   Button,
-  Card,
-  Checkbox,
+  CardMerge,
   CheckboxMerge,
   CollageMerge,
   Column,

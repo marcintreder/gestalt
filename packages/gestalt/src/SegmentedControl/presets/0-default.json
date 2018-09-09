@@ -1,0 +1,19 @@
+{
+  "rootId": "segmentedcontrol3198662783",
+  "elements": {
+    "segmentedcontrol3198662783": {
+      "name": "SegmentedControl",
+      "props": {
+        "items": [
+          "News",
+          "You",
+          "Messages"],
+        "onChange": "() => console.log('')",
+        "selectedItemIndex": 0
+      }
+    }
+  }
+}
+
+
+

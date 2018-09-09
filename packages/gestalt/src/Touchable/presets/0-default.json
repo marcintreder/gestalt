@@ -1,0 +1,67 @@
+{
+  "rootId": "touchable2872040609",
+  "elements": {
+    "touchable2872040609": {
+      "name": "Touchable",
+      "props": {
+        "mouseCursor": "zoomIn",
+        "onTouch": "() => console.log(``)",
+        "shape": "rounded",
+        "children":
+        [
+          {
+            "uxpinPresetElementId": "mask3989747613"
+          },
+          {
+            "uxpinPresetElementId": "box3431148192"
+          }
+        ]
+      }
+    },
+    "mask3989747613": {
+      "name": "Mask",
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "image3875041699"
+        }
+      }
+    },
+    "box3431148192": {
+      "name": "Box",
+      "paddingY": 2,
+      "props": {
+        "children": {
+          "uxpinPresetElementId": "link251799275"
+        }
+      }
+    },
+    "image3875041699": {
+      "name": "Image",
+      "props": {
+        "alt": "Antelope Canyon",
+        "naturalHeight": 1,
+        "naturalWidth": 1,
+        "src": "http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"
+      }
+    },
+    "link251799275": {
+      "name": "Link",
+      "props": {
+        "href": "https://en.wikipedia.org/wiki/gdansk",
+        "children": {
+          "uxpinPresetElementId": "text4117267629"
+        }
+      }
+    },
+    "text4117267629": {
+      "name": "Text",
+      "props": {
+        "align": "center",
+        "children": "Wiki Link"
+      }
+    }
+  }
+}
+
+
+

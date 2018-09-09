@@ -1,0 +1,26 @@
+{
+  "rootId": "toast2249311806",
+  "elements": {
+    "toast2249311806": {
+      "name": "Toast",
+      "props": {
+        "text": ["Saved to", "Home decor"],
+        "thumbnail": {
+          "uxpinPresetElementId": "image3088956447"
+        }
+      }
+    },
+    "image3088956447": {
+      "name": "Image",
+      "props": {
+        "alt": "Saved to home decor board",
+        "naturalHeight": 564,
+        "naturalWidth": 564,
+        "src": "http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,22 @@
+{
+  "rootId": "video3908690753",
+  "elements": {
+    "video3908690753": {
+      "name": "Video",
+      "props": {
+        "accessibilityMaximizeLabel": "Maximize",
+        "accessibilityMinimizeLabel": "Minimize",
+        "accessibilityMuteLabel": "Mute",
+        "accessibilityPauseLabel": "Pause",
+        "accessibilityPlayLabel": "Play",
+        "accessibilityUnmuteLabel": "Unmute",
+        "aspectRatio": 1.77,
+        "controls": true,
+        "src": "http://media.w3.org/2010/05/bunny/movie.mp4"
+      }
+    }
+  }
+}
+
+
+
