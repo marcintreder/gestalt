@@ -7,7 +7,7 @@ import Text from '../Text/Text.js';
 import styles from './SegmentedControl.css';
 
 type Props = {|
-  items: Array<React.Node>,
+  items: array,
   onChange: ({ event: SyntheticMouseEvent<>, activeIndex: number }) => void,
   selectedItemIndex: number,
   size?: 'md' | 'lg',
@@ -60,7 +60,7 @@ export default function SegmentedControl(props: Props) {
 }
 
 SegmentedControl.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.node).isRequired,
+  items: PropTypes.array.isRequired,
   onChange: PropTypes.func.isRequired,
   selectedItemIndex: PropTypes.number.isRequired,
 };

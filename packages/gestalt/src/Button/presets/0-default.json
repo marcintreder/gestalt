@@ -5,7 +5,7 @@
       "name": "Button",
       "props": {
         "text": "UXPin Merge",
-        "color": "red",
+        "color": "red"
       }
     }
   }

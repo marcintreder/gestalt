@@ -6,21 +6,21 @@
       "props": {
         "id": "city",
         "name": "city",
+        "placeholder": "Select city",
         "options": [
           {
-            value: "bos",
-            label: "Boston"
+            "value": "bos",
+            "label": "Boston"
           },
           {
-            value: "la",
-            label: "Los Angeles"
+            "value": "la",
+            "label": "Los Angeles"
           },
           {
-            value: "sf",
-            label: "San Francisco"
+            "value": "sf",
+            "label": "San Francisco"
           }
-        ],
-        "placeholder": "Select city"
+        ]
       }
     }
   }

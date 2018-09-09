@@ -30,7 +30,7 @@ export default class SegmentedControlMerge extends React.Component {
 }
 
 SegmentedControlMerge.propTypes = {
-  items: PropTypes.oneOf([PropTypes.string, PropTypes.node]),
+  items: PropTypes.array,
   firstActive: PropTypes.number
 };
 
@@ -38,8 +38,7 @@ SegmentedControlMerge.defaultProps = {
   items: [
     'News',
     'You',
-    'Messages',
-    <Icon icon="pin" accessibilityLabel="Pin" color="gray" />,
+    'Messages'
   ],
   firstActive: 0
 };

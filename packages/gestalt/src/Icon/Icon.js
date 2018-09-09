@@ -108,7 +108,7 @@ Icon.propTypes = {
   dangerouslySetSvgPath: PropTypes.shape({
     __path: PropTypes.string,
   }),
-  icon: PropTypes.oneOf(IconNames),
+  icon: PropTypes.string,
   inline: PropTypes.bool,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
