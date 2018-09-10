@@ -4840,13 +4840,11 @@
 					properties: [
 						{
 							description: '',
-							isRequired: false,
+							isRequired: true,
 							name: 'children',
 							type: {
-								name: 'unsupported',
-								structure: {
-									raw: 'ReactNode'
-								}
+								name: 'node',
+								structure: {}
 							}
 						},
 						{
@@ -4873,28 +4871,7 @@
 							name: 'onClick',
 							type: {
 								name: 'func',
-								structure: {
-									arguments: [
-										{
-											name: '',
-											type: {
-												name: 'shape',
-												structure: {
-													event: {
-														name: 'unsupported',
-														structure: {
-															raw: 'SyntheticMouseEvent'
-														}
-													}
-												}
-											}
-										}
-									],
-									returnType: {
-										name: 'empty',
-										structure: {}
-									}
-								}
+								structure: {}
 							}
 						},
 						{
@@ -4905,12 +4882,6 @@
 								name: 'union',
 								structure: {
 									elements: [
-										{
-											name: 'unsupported',
-											structure: {
-												raw: 'unknown'
-											}
-										},
 										{
 											name: 'literal',
 											structure: {
@@ -5734,8 +5705,497 @@
 							isRequired: false,
 							name: 'leftIcon',
 							type: {
-								name: 'string',
-								structure: {}
+								name: 'union',
+								structure: {
+									elements: [
+										{
+											name: 'literal',
+											structure: {
+												value: 'add'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'add-circle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'add-pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'angled-pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-back'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-circle-down'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-circle-forward'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-down'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-forward'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-up'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-up-right'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'bell'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'camera'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'camera-roll'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'cancel'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'check'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'check-circle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'circle-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'clear'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'clock'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'cog'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'compass'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'dash'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'edit'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'ellipsis'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'ellipsis-circle-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'envelope'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'eye'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'facebook'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-happy'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-sad'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-smiley'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'filter'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'flag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'flashlight'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'gif'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'globe'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'globe-checked'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'gmail'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'google-plus'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'graph-bar'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'handle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'hand-pointing'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'heart'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'heart-broken'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'knoop'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'lightbulb'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'link'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'location'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'lock'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'maximize'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'megaphone'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'menu'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'minimize'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'move'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'mute'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pause'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'people'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'person'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'person-add'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pin-hide'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pinterest'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'play'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'question-mark'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'remove'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'report'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'search'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'shopping-bag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'smiley'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'smiley-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'send'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'share'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'sound'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'speech'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'speech-ellipsis'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'tag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'twitter'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-default'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-dense'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-list'
+											}
+										}
+									]
+								}
 							}
 						},
 						{
@@ -5781,8 +6241,497 @@
 							isRequired: false,
 							name: 'rightIcon',
 							type: {
-								name: 'string',
-								structure: {}
+								name: 'union',
+								structure: {
+									elements: [
+										{
+											name: 'literal',
+											structure: {
+												value: 'add'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'add-circle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'add-pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'angled-pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-back'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-circle-down'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-circle-forward'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-down'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-forward'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-up'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'arrow-up-right'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'bell'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'camera'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'camera-roll'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'cancel'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'check'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'check-circle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'circle-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'clear'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'clock'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'cog'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'compass'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'dash'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'edit'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'ellipsis'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'ellipsis-circle-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'envelope'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'eye'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'facebook'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-happy'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-sad'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'face-smiley'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'filter'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'flag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'flashlight'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'gif'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'globe'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'globe-checked'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'gmail'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'google-plus'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'graph-bar'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'handle'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'hand-pointing'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'heart'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'heart-broken'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'knoop'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'lightbulb'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'link'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'location'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'lock'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'maximize'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'megaphone'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'menu'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'minimize'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'move'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'mute'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pause'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'people'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'person'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'person-add'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pin'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pin-hide'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'pinterest'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'play'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'question-mark'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'remove'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'report'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'search'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'shopping-bag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'smiley'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'smiley-outline'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'send'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'share'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'sound'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'speech'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'speech-ellipsis'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'tag'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'twitter'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-default'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-dense'
+											}
+										},
+										{
+											name: 'literal',
+											structure: {
+												value: 'view-type-list'
+											}
+										}
+									]
+								}
 							}
 						},
 						{
@@ -6294,324 +7243,6 @@
 							type: {
 								name: 'string',
 								structure: {}
-							}
-						}
-					]
-				},
-				{
-					documentation: {
-						examples: [
-							{
-								code: '<Box color="white" height={200} overflow="scroll">\n  <Box height={500} marginTop={10}>\n    <Box>\n      <Sticky top={0}>\n        <Box alignItems="center" color="lightGray" display="flex" height={40}>\n          <Text>This should stick</Text>\n        </Box>\n      </Sticky>\n      <Box marginTop={10} position="relative">\n        <Text>Scroll</Text>\n        <Text>Keep scrolling</Text>\n        <Text>Scroll more</Text>\n      </Box>\n    </Box>\n    <Box>\n      <Sticky top={0} dangerouslySetZIndex={{ __zIndex: 3 }}>\n       <Box alignItems="center" color="lightGray" display="flex" height={40} position="relative" dangerouslySetInlineStyle={{ __style: { zIndex: 2 } }}>\n          <Text>This should also stick</Text>\n        </Box>\n      </Sticky>\n      <Box marginTop={10}>\n        <Text>Still scrolling</Text>\n        <Text>Tadaaaaa</Text>\n      </Box>\n    </Box>\n  </Box>\n</Box>'
-							}
-						]
-					},
-					info: {
-						dirPath: 'packages/gestalt/src/Sticky',
-						documentation: {
-							path: 'packages/gestalt/src/Sticky/Sticky.md'
-						},
-						implementation: {
-							framework: 'reactjs',
-							lang: 'javascript',
-							path: 'packages/gestalt/src/Sticky/Sticky.js'
-						},
-						presets: [
-							{
-								path: 'packages/gestalt/src/Sticky/presets/0-default.json'
-							}
-						]
-					},
-					name: 'Sticky',
-					presets: [
-						{
-							elements: {
-								box1931428635: {
-									name: 'Box',
-									props: {
-										children: [
-											{
-												uxpinPresetElementId: 'sticky528697028'
-											},
-											{
-												uxpinPresetElementId: 'box3866044078'
-											}
-										]
-									}
-								},
-								box2398016799: {
-									name: 'Box',
-									props: {
-										children: {
-											uxpinPresetElementId: 'box558037075'
-										},
-										color: 'white',
-										height: 200,
-										overflow: 'scroll'
-									}
-								},
-								box3555702638: {
-									name: 'Box',
-									props: {
-										alignItems: 'center',
-										children: {
-											uxpinPresetElementId: 'text673542996'
-										},
-										color: 'lightGray',
-										display: 'flex',
-										height: 40
-									}
-								},
-								box3866044078: {
-									name: 'Box',
-									props: {
-										children: [
-											{
-												uxpinPresetElementId: 'text1960552698'
-											},
-											{
-												uxpinPresetElementId: 'text2055396297'
-											}
-										],
-										marginTop: 10
-									}
-								},
-								box3882305175: {
-									name: 'Box',
-									props: {
-										children: [
-											{
-												uxpinPresetElementId: 'text3540468524'
-											},
-											{
-												uxpinPresetElementId: 'text1116719957'
-											},
-											{
-												uxpinPresetElementId: 'text2433533108'
-											}
-										],
-										marginTop: 10,
-										position: 'relative'
-									}
-								},
-								box558037075: {
-									name: 'Box',
-									props: {
-										children: [
-											{
-												uxpinPresetElementId: 'box620047247'
-											},
-											{
-												uxpinPresetElementId: 'box1931428635'
-											}
-										],
-										height: 500,
-										marginTop: 10
-									}
-								},
-								box59194605: {
-									name: 'Box',
-									props: {
-										alignItems: 'center',
-										children: {
-											uxpinPresetElementId: 'text820040662'
-										},
-										color: 'lightGray',
-										dangerouslySetInlineStyle: {
-											__style: {
-												zIndex: 2
-											}
-										},
-										display: 'flex',
-										height: 40,
-										position: 'relative'
-									}
-								},
-								box620047247: {
-									name: 'Box',
-									props: {
-										children: [
-											{
-												uxpinPresetElementId: 'sticky3139730247'
-											},
-											{
-												uxpinPresetElementId: 'box3882305175'
-											}
-										]
-									}
-								},
-								sticky3139730247: {
-									name: 'Sticky',
-									props: {
-										children: {
-											uxpinPresetElementId: 'box3555702638'
-										},
-										top: 0
-									}
-								},
-								sticky528697028: {
-									name: 'Sticky',
-									props: {
-										children: {
-											uxpinPresetElementId: 'box59194605'
-										},
-										dangerouslySetZIndex: {
-											__zIndex: 3
-										},
-										top: 0
-									}
-								},
-								text1116719957: {
-									name: 'Text',
-									props: {
-										children: 'Keep scrolling'
-									}
-								},
-								text1960552698: {
-									name: 'Text',
-									props: {
-										children: 'Still scrolling'
-									}
-								},
-								text2055396297: {
-									name: 'Text',
-									props: {
-										children: 'Tadaaaaa'
-									}
-								},
-								text2433533108: {
-									name: 'Text',
-									props: {
-										children: 'Scroll more'
-									}
-								},
-								text3540468524: {
-									name: 'Text',
-									props: {
-										children: 'Scroll'
-									}
-								},
-								text673542996: {
-									name: 'Text',
-									props: {
-										children: 'This should stick'
-									}
-								},
-								text820040662: {
-									name: 'Text',
-									props: {
-										children: 'This should also stick'
-									}
-								}
-							},
-							name: 'default',
-							rootId: 'box2398016799'
-						}
-					],
-					properties: [
-						{
-							description: '',
-							isRequired: true,
-							name: 'children',
-							type: {
-								name: 'unsupported',
-								structure: {
-									raw: 'ReactNode'
-								}
-							}
-						},
-						{
-							description: '',
-							isRequired: false,
-							name: 'dangerouslySetZIndex',
-							type: {
-								name: 'shape',
-								structure: {
-									__zIndex: {
-										name: 'number',
-										structure: {}
-									}
-								}
-							}
-						},
-						{
-							description: '',
-							isRequired: false,
-							name: 'top',
-							type: {
-								name: 'union',
-								structure: {
-									elements: [
-										{
-											name: 'number',
-											structure: {}
-										},
-										{
-											name: 'string',
-											structure: {}
-										}
-									]
-								}
-							}
-						},
-						{
-							description: '',
-							isRequired: false,
-							name: 'left',
-							type: {
-								name: 'union',
-								structure: {
-									elements: [
-										{
-											name: 'number',
-											structure: {}
-										},
-										{
-											name: 'string',
-											structure: {}
-										}
-									]
-								}
-							}
-						},
-						{
-							description: '',
-							isRequired: false,
-							name: 'bottom',
-							type: {
-								name: 'union',
-								structure: {
-									elements: [
-										{
-											name: 'number',
-											structure: {}
-										},
-										{
-											name: 'string',
-											structure: {}
-										}
-									]
-								}
-							}
-						},
-						{
-							description: '',
-							isRequired: false,
-							name: 'right',
-							type: {
-								name: 'union',
-								structure: {
-									elements: [
-										{
-											name: 'number',
-											structure: {}
-										},
-										{
-											name: 'string',
-											structure: {}
-										}
-									]
-								}
 							}
 						}
 					]
@@ -8233,10 +8864,7 @@
 								toast2249311806: {
 									name: 'Toast',
 									props: {
-										text: [
-											'Saved to',
-											'Home decor'
-										],
+										text: 'Saved to Home decor',
 										thumbnail: {
 											uxpinPresetElementId: 'image3088956447'
 										}
@@ -9126,7 +9754,7 @@
 					documentation: {
 						examples: [
 							{
-								code: '   <Touchable\n          mouseCursor="zoomIn"\n          onTouch={()=>console.log(\'\')}\n          shape="rounded"\n        >\n          <Mask shape="rounded">\n            <Image\n              alt="Antelope Canyon"\n              naturalHeight={1}\n              naturalWidth={1}\n              src="http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"\n            />\n          </Mask>\n          <Box paddingY={2}>\n            <Link\n              href="https://en.wikipedia.org/wiki/gdansk"\n            >\n              <Text align="center">Wiki Link</Text>\n            </Link>\n          </Box>\n        </Touchable>'
+								code: '   <Touchable\n          mouseCursor="zoomIn"\n          onTouch={()=>console.log(\'\')}\n          shape="rounded"\n        >\n          <Mask>\n            <Image\n              alt="Antelope Canyon"\n              naturalHeight={1}\n              naturalWidth={1}\n              src="http://uxpin.com/images/homepage/jobs/bg-gdansk.jpg"\n            />\n          </Mask>\n          <Box paddingY={2}>\n            <Link\n              href="https://en.wikipedia.org/wiki/gdansk"\n            >\n              <Text align="center">Wiki Link</Text>\n            </Link>\n          </Box>\n        </Touchable>'
 							}
 						]
 					},
@@ -9219,10 +9847,8 @@
 							isRequired: false,
 							name: 'children',
 							type: {
-								name: 'unsupported',
-								structure: {
-									raw: 'ReactNode'
-								}
+								name: 'node',
+								structure: {}
 							}
 						},
 						{
@@ -9309,41 +9935,7 @@
 							name: 'onTouch',
 							type: {
 								name: 'func',
-								structure: {
-									arguments: [
-										{
-											name: '',
-											type: {
-												name: 'shape',
-												structure: {
-													event: {
-														name: 'union',
-														structure: {
-															elements: [
-																{
-																	name: 'unsupported',
-																	structure: {
-																		raw: 'SyntheticMouseEvent'
-																	}
-																},
-																{
-																	name: 'unsupported',
-																	structure: {
-																		raw: 'SyntheticKeyboardEvent'
-																	}
-																}
-															]
-														}
-													}
-												}
-											}
-										}
-									],
-									returnType: {
-										name: 'empty',
-										structure: {}
-									}
-								}
+								structure: {}
 							}
 						},
 						{
@@ -9352,28 +9944,7 @@
 							name: 'onMouseEnter',
 							type: {
 								name: 'func',
-								structure: {
-									arguments: [
-										{
-											name: '',
-											type: {
-												name: 'shape',
-												structure: {
-													event: {
-														name: 'unsupported',
-														structure: {
-															raw: 'SyntheticMouseEvent'
-														}
-													}
-												}
-											}
-										}
-									],
-									returnType: {
-										name: 'empty',
-										structure: {}
-									}
-								}
+								structure: {}
 							}
 						},
 						{
@@ -9382,28 +9953,7 @@
 							name: 'onMouseLeave',
 							type: {
 								name: 'func',
-								structure: {
-									arguments: [
-										{
-											name: '',
-											type: {
-												name: 'shape',
-												structure: {
-													event: {
-														name: 'unsupported',
-														structure: {
-															raw: 'SyntheticMouseEvent'
-														}
-													}
-												}
-											}
-										}
-									],
-									returnType: {
-										name: 'empty',
-										structure: {}
-									}
-								}
+								structure: {}
 							}
 						},
 						{
