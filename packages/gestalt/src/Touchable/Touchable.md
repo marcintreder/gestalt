@@ -6,7 +6,7 @@
           onTouch={()=>console.log('')}
           shape="rounded"
         >
-          <Mask shape="rounded">
+          <Mask>
             <Image
               alt="Antelope Canyon"
               naturalHeight={1}

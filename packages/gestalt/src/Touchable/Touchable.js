@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import styles from './Touchable.css';
 
+/*
 type Shape =
   | 'square'
   | 'rounded'
@@ -38,11 +39,14 @@ type Props = {|
   }) => void,
   shape?: Shape,
 |};
+*/
+
+// <Props>
 
 const SPACE_CHAR_CODE = 32;
 const ENTER_CHAR_CODE = 13;
 
-export default class Touchable extends React.Component<Props> {
+export default class Touchable extends React.Component {
   handleKeyPress = (event: SyntheticKeyboardEvent<HTMLDivElement>) => {
     const { onTouch } = this.props;
     // Check to see if space or enter were pressed
