@@ -4,7 +4,7 @@
     "toast2249311806": {
       "name": "Toast",
       "props": {
-        "text": ["Saved to", "Home decor"],
+        "text": "Saved to Home decor",
         "thumbnail": {
           "uxpinPresetElementId": "image3088956447"
         }

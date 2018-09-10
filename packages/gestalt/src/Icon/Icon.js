@@ -6,7 +6,7 @@ import styles from './Icon.css';
 import icons from '../icons/index.js';
 import colors from '../Colors.css';
 
-type IconProps = {
+/*type IconProps = {
   accessibilityLabel: string,
   color?:
     | 'blue'
@@ -41,10 +41,13 @@ type PathNoIcon = {
 };
 
 type Props = IconProps & (PathNoIcon | IconNoPath);
-
+*/
 const IconNames = Object.keys(icons);
 
-export default function Icon(props: Props) {
+
+// :Props
+
+export default function Icon(props) {
   const {
     accessibilityLabel,
     color = 'gray',
@@ -65,7 +68,6 @@ export default function Icon(props: Props) {
     undefined;
 
   const ariaHidden = accessibilityLabel === '' ? true : null;
-
   return (
     <svg
       className={cs}
@@ -108,7 +110,89 @@ Icon.propTypes = {
   dangerouslySetSvgPath: PropTypes.shape({
     __path: PropTypes.string,
   }),
-  icon: PropTypes.string,
+  icon: PropTypes.oneOf([
+    'add',
+    'add-circle',
+    'add-pin',
+    'angled-pin',
+    'arrow-back',
+    'arrow-circle-down',
+    'arrow-circle-forward',
+    'arrow-down',
+    'arrow-forward',
+    'arrow-up',
+    'arrow-up-right',
+    'bell',
+    'camera',
+    'camera-roll',
+    'cancel',
+    'check',
+    'check-circle',
+    'circle-outline',
+    'clear',
+    'clock',
+    'cog',
+    'compass',
+    'dash',
+    'edit',
+    'ellipsis',
+    'ellipsis-circle-outline',
+    'envelope',
+    'eye',
+    'facebook',
+    'face-happy',
+    'face-sad',
+    'face-smiley',
+    'filter',
+    'flag',
+    'flashlight',
+    'gif',
+    'globe',
+    'globe-checked',
+    'gmail',
+    'google-plus',
+    'graph-bar',
+    'handle',
+    'hand-pointing',
+    'heart',
+    'heart-broken',
+    'knoop',
+    'lightbulb',
+    'link',
+    'location',
+    'lock',
+    'maximize',
+    'megaphone',
+    'menu',
+    'minimize',
+    'move',
+    'mute',
+    'pause',
+    'people',
+    'person',
+    'person-add',
+    'pin',
+    'pin-hide',
+    'pinterest',
+    'play',
+    'question-mark',
+    'remove',
+    'report',
+    'search',
+    'shopping-bag',
+    'smiley',
+    'smiley-outline',
+    'send',
+    'share',
+    'sound',
+    'speech',
+    'speech-ellipsis',
+    'tag',
+    'twitter',
+    'view-type-default',
+    'view-type-dense',
+    'view-type-list',
+  ]),
   inline: PropTypes.bool,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
