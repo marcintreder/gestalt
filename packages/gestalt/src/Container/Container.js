@@ -3,9 +3,9 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Box from '../Box/Box.js';
 
-type Props = {|
+/*type Props = {|
   children?: React.Node,
-|};
+|};*/
 
 export default function Container(props: Props) {
   const { children } = props;

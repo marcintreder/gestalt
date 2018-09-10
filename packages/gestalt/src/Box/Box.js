@@ -47,7 +47,7 @@ import {
 Box's type definition is exhaustive. With the exception of `dangerouslySetInlineStyle`, values shouldn't be ambigious. That means that we have to type out things like boints, but that's also where Box's magic lies. Also, by putting in extra effort around type definitions here, we can skip extra runtime typechecks in the transformers for performance.
 
 */
-
+/*
 type NatBoint = 1 | 2 | 3 | 4 | 5 | 6;
 type IntBoint = -6 | -5 | -4 | -3 | -2 | -1 | NatBoint;
 type Display = 'none' | 'flex' | 'block' | 'inlineBlock' | 'visuallyHidden';
@@ -215,7 +215,7 @@ type PropType = {
 };
 
 // --
-
+*/
 /*
 
 # Transformers
@@ -639,7 +639,9 @@ const omit = (keys, obj) =>
     };
   }, {});
 
-export default function Box({ children, ...props }: PropType) {
+  //: PropType
+
+export default function Box({ children, ...props }) {
   // Flow can't reason about the constant nature of Object.keys so we can't use
   // a functional (reduce) style here.
 

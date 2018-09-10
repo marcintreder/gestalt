@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import styles from './Mask.css';
 
+/*
 type Props = {|
   children?: React.Node,
   height?: number | string,
@@ -11,8 +12,11 @@ type Props = {|
   width?: number | string,
   wash?: boolean,
 |};
+*/
 
-export default function Mask(props: Props) {
+// Props
+
+export default function Mask(props) {
   const { children, shape = 'square', width, height, wash = false } = props;
   return (
     <div className={cx(styles.Mask, styles[shape])} style={{ width, height }}>

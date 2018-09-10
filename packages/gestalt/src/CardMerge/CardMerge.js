@@ -6,6 +6,7 @@ import Box from '../Box/Box.js';
 import Avatar from '../Avatar/Avatar.js';
 import styles from './CardMerge.css';
 
+/*
 type Props = {|
   active?: ?boolean,
   children?: React.Node,
@@ -18,11 +19,16 @@ type Props = {|
   onMouseLeave?: ({ event: SyntheticMouseEvent<HTMLDivElement> }) => void,
 |};
 
+
 type State = {|
   hovered: boolean,
 |};
 
-export default class CardMerge extends React.Component<Props, State> {
+*/
+
+// <Props, State>
+
+export default class CardMerge extends React.Component {
   static propTypes = {
     active: PropTypes.bool,
     children: PropTypes.node,

@@ -5,7 +5,7 @@ import cx from 'classnames';
 import colors from '../Colors.css';
 import styles from './Heading.css';
 import typography from '../Typography.css';
-
+/*
 type Props = {|
   accessibilityLevel?: 1 | 2 | 3 | 4 | 5 | 6,
   children?: React.Node,
@@ -34,7 +34,7 @@ type Props = {|
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl',
   smSize?: 'xs' | 'sm' | 'md' | 'lg' | 'xl',
   truncate?: boolean,
-|};
+|};*/
 
 const defaultHeadingLevels = {
   xs: 5,
@@ -52,7 +52,9 @@ const SIZE_SCALE: { [size: ?string]: number } = {
   xl: 5,
 };
 
-export default function Heading(props: Props) {
+// Props
+
+export default function Heading(props) {
   const {
     accessibilityLevel,
     children,

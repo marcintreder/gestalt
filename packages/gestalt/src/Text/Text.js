@@ -14,7 +14,7 @@ const SIZE_SCALE: { [size: ?string]: number } = {
   lg: 4,
   xl: 5,
 };
-
+/*
 type Props = {|
   align?: 'left' | 'right' | 'center' | 'justify',
   bold?: boolean,
@@ -48,6 +48,9 @@ type Props = {|
   truncate?: boolean,
   __dangerouslyIncreaseLineHeight?: boolean,
 |};
+*/
+
+// Props
 
 export default function Text({
   align = 'left',
@@ -64,7 +67,7 @@ export default function Text({
   leading = 'short',
   truncate = false,
   __dangerouslyIncreaseLineHeight = false,
-}: Props) {
+}) {
   const scale = SIZE_SCALE[size];
   const smScale = SIZE_SCALE[smSize];
   const mdScale = SIZE_SCALE[mdSize];
@@ -125,7 +128,7 @@ Text.propTypes = {
   __dangerouslyIncreaseLineHeight: PropTypes.bool,
   align: PropTypes.oneOf(['left', 'right', 'center', 'justify']),
   bold: PropTypes.bool,
-  children: PropTypes.node,
+  children: PropTypes.string,
   color: PropTypes.oneOf([
     'green',
     'pine',

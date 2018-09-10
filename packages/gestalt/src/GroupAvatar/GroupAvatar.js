@@ -17,7 +17,7 @@ const AVATAR_SIZES = {
   md: 40,
   lg: 72,
 };
-
+/*
 type Props = {|
   collaborators: Array<{|
     name: string,
@@ -26,6 +26,7 @@ type Props = {|
   outline?: boolean,
   size?: 'sm' | 'md' | 'lg',
 |};
+*/
 
 const avatarLayout = (n, size) => {
   switch (n) {
