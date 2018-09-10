@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import styles from './Link.css';
 
-type Props = {|
+/*type Props = {|
   children?: React.Node,
   href: string,
   inline?: boolean,
@@ -14,11 +14,13 @@ type Props = {|
 
 type State = {|
   enableFocusStyles: boolean,
-|};
+|};*/
+
+// <Props, State>
 
 const TAB_KEY_CODE = 9;
 
-export default class Link extends React.Component<Props, State> {
+export default class Link extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
     href: PropTypes.string.isRequired,
@@ -27,7 +29,7 @@ export default class Link extends React.Component<Props, State> {
     target: PropTypes.oneOf([null, 'self', 'blank']),
   };
 
-  state: State = {
+  state = {
     enableFocusStyles: true,
   };
 
