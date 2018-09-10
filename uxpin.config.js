@@ -28,7 +28,6 @@ module.exports = {
           'packages/gestalt/src/SearchField/SearchField.js',
           'packages/gestalt/src/SegmentedControl/SegmentedControl.js',
           'packages/gestalt/src/SelectList/SelectList.js',
-          'packages/gestalt/src/Sticky/Sticky.js',
           'packages/gestalt/src/Switch/Switch.js',
           'packages/gestalt/src/Tabs/Tabs.js',
           'packages/gestalt/src/TextArea/TextArea.js',
@@ -59,4 +58,5 @@ module.exports = {
 ** Layer – UXPin Merge doesn't work with position absolute
 ** Masonry – unclear how this component works
 ** Modal – UXPin Merge doesn't work with position absolute
+** Sticky – bugs with position
 */

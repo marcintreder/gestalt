@@ -28,7 +28,6 @@ import SegmentedControl from '../packages/gestalt/src/SegmentedControl/Segmented
 import SegmentedControlMerge from '../packages/gestalt/src/SegmentedControlMerge/SegmentedControlMerge';
 import SelectList from '../packages/gestalt/src/SelectList/SelectList';
 import Spinner from '../packages/gestalt/src/Spinner/Spinner';
-import Sticky from '../packages/gestalt/src/Sticky/Sticky';
 import Switch from '../packages/gestalt/src/Switch/Switch';
 import SwitchMerge from '../packages/gestalt/src/SwitchMerge/SwitchMerge';
 import Tabs from '../packages/gestalt/src/Tabs/Tabs';
@@ -72,7 +71,6 @@ export {
   SegmentedControlMerge,
   SelectList,
   Spinner,
-  Sticky,
   Switch,
   SwitchMerge,
   Tabs,
