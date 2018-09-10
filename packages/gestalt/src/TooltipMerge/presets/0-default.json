@@ -11,8 +11,9 @@
     },
     "text4018430708": {
       "name": "Text",
-      "children": "Create a board to save Pins about Kitchen Design for later"
-    }
+      "props": {
+        "children": "Create a board to save Pins about Kitchen Design for later"
+      }
   }
 }
 
