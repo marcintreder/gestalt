@@ -6,8 +6,8 @@
       "props": {
         "columns": 3,
         "gutter": 8,
-        "width": 600,
-        "height": 600,
+        "width": 300,
+        "height": 300,
         "cover": true,
         "layoutKey": 2,
         "images":
