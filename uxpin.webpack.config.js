@@ -31,7 +31,7 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-              localIdentName: 'gestalt-[hash:base64:7]',
+              localIdentName: 'css-[hash:base64:7]',
             },
           },
           {
