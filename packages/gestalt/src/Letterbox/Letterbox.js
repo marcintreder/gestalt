@@ -13,20 +13,20 @@ import Mask from '../Mask/Mask.js';
 */
 
 const aspectRatio = (width, height) => width / height;
-
+/*
 type Props = {|
   children?: React.Node,
   contentAspectRatio: number,
   height: number,
   width: number,
 |};
-
+*/
 export default function Letterbox({
   children,
   contentAspectRatio,
   height,
   width,
-}: Props) {
+}) {
   const viewportAspectRatio = aspectRatio(width, height);
 
   let contentHeight;
